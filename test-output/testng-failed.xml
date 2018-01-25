@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [khanacademy]">
+  <test name="registration(failed)">
+    <parameter name="email2" value="ralph14324@gmail.com"/>
+    <parameter name="birthYear2" value="1997"/>
+    <parameter name="birthDay2" value="1"/>
+    <parameter name="firstName2" value="Ralph"/>
+    <parameter name="lastName2" value="Zanoria"/>
+    <parameter name="password2" value="asdfgh12"/>
+    <parameter name="birthMonth2" value="Jan"/>
+    <classes>
+      <class name="test.TestRegistration">
+        <methods>
+          <include name="checkIfUserCanSignUpWithEmail"/>
+          <include name="checkIfLearnerButtonIsClickable"/>
+          <include name="checkIfSignUpLinkIsClickable"/>
+          <include name="checkIfUserCanRegister" invocation-numbers="0"/>
+          <include name="checkIfUserCanRegister" invocation-numbers="0"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- test.TestRegistration -->
+    </classes>
+  </test> <!-- registration(failed) -->
+</suite> <!-- Failed suite [khanacademy] -->
