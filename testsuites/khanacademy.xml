@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name = "khanacademy">
+
+	<test name = "setup">
+		<parameter name = "browser" value = "chrome"/>
+		<parameter name = "url" value = "https://www.khanacademy.org/"/>
+		<classes>
+			<class name = "setup.Setup"/>
+		</classes>
+	</test>
+
+	<test name = "registration">
+		<parameter name = "" value = ""/>
+		<parameter name = "" value = ""/>
+		<parameter name = "" value = ""/>
+		<parameter name = "" value = ""/>
+		<classes>
+			<class name = "test.TestRegistration"/>
+		</classes>
+	</test>
+
+	<test name = "testEditProfile">
+		<parameter name = "" value = ""/>
+		<parameter name = "" value = ""/>
+		<parameter name = "" value = ""/>
+		<classes>
+			<class name = "test.TestEditProfile"/>
+		</classes>
+	</test>
+
+	<test name = "testSearchFunctionality">
+		<parameter name = "" value = ""/>
+		<classes>
+			<class name = "test.TestSearchFunctionality"/>
+		</classes>
+ 	</test>
+
+ 	<test name = "testQuestion">
+ 		<parameter name = "" value = ""/>
+ 		<classes>
+ 			<class name = "test.TestQuestion"/>
+ 		</classes>
+ 	</test>
+
+ 	<test name = "teardown">
+ 		<classes>
+ 			<class name = "teardown.Teardown"/>
+ 		</classes>
+ 	</test>
+
+</suite>
