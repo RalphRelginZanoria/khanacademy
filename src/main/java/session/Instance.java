@@ -8,7 +8,7 @@ public class Instance {
 	protected static WebDriver driver;
 
 	public static void createChromeSessionAndNavigateTo(String url){
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\tr_lnd_user\\Desktop\\Eclipse Workspace\\khan-academy\\src\\main\\resources\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\tr_lnd_user\\Desktop\\khan-academy\\src\\main\\resources\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.get(url);
 	}

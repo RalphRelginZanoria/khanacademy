@@ -6,9 +6,9 @@ import session.Instance;
 
 public class Teardown {
 
-	@AfterSuite
-	public void teardown(){
-		Instance.quitDriverSession();
-	}
+	//@AfterSuite
+	//public void teardown(){
+	//	Instance.quitDriverSession();
+	//}
 
 }

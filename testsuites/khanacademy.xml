@@ -3,19 +3,15 @@
 
 <suite name = "khanacademy">
 
-	<test name = "setup">
-		<parameter name = "browser" value = "chrome"/>
-		<parameter name = "url" value = "https://www.khanacademy.org/"/>
-		<classes>
-			<class name = "setup.Setup"/>
-		</classes>
-	</test>
 
 	<test name = "registration">
-		<parameter name = "" value = ""/>
-		<parameter name = "" value = ""/>
-		<parameter name = "" value = ""/>
-		<parameter name = "" value = ""/>
+		<parameter name = "birthMonth2" value = "Jan"/>
+		<parameter name = "birthDay2" value = "1"/>
+		<parameter name = "birthYear2" value = "1997"/>
+		<parameter name = "email2" value = "ralph@gmail.com"/>
+		<parameter name = "firstName2" value = "Ralph"/>
+		<parameter name = "lastName2" value = "Zanoria"/>
+		<parameter name = "password2" value = "asdfgh12"/>
 		<classes>
 			<class name = "test.TestRegistration"/>
 		</classes>
